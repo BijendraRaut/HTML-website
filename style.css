@@ -7,6 +7,10 @@
 body {
     font-family: 'Montserrat', sans-serif; 
 }
+
+hr{
+    margin: 2rem 0;
+}
 /**container **/
 .container {
     padding-left: 1rem;
@@ -34,3 +38,4 @@ body {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
