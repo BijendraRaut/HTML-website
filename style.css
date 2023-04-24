@@ -47,3 +47,28 @@ hr{
     display: inline;
     padding: 0.5rem;
 }
+
+/**navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: #fff;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
