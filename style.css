@@ -48,6 +48,30 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+.link-blog {
+    text-decoration: none;
+}
+
+.blog-img {
+    max-width: 950px;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+
+.blog-para{
+    margin-bottom: 2rem;
+}
+
+.blog-date{
+    margin-bottom: 0.5rem;
+}
+
+.blog-header{
+    font-weight: normal;
+}
+
 /**lists **/
 
 .list-non-bullet{
