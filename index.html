@@ -1,138 +1,76 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Website</title>
-    <link href="./style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home | Bijendra Raut</title>
   </head>
   <body>
-    <h1>component library</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illo
-      fugit blanditiis suscipit, cum tenetur perferendis sit assumenda.
-      Voluptatum veritatis quas ducimus possimus corporis ab tempore, minima
-      magnam sed dignissimos.
-    </p>
-    <hr />
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>
-      This is the normal text and this will wrap at the end like a paragraph.
-    </p>
-    <p>this para will have <b>bold</b> text</p>
-    <small>this is relatively smaller text.</small>
-    <hr />
-
-    <h2>@container</h2>
-    <h3 class="container">fluid container</h3>
-    <div>
-      This is a fluid container and it will go till the end of the page.let me
-      expand it more and see what happens.
-    </div>
-
-    <h3>center container</h3>
-    <div class="container container-center">
-      This is a centered container and it will go till the specified width.let
-      me expand it more and see what happens.
-    </div>
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr />
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <ul class="list-non-bullet">
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">Item one</li>
-      <li class="list-item-inline">Item two</li>
-      <li class="list-item-inline">Item three</li>
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-    <ol reversed>
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
     <nav class="navigation">
       <div class="nav-brand">I am a developer</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
           <a class="link link-active" href="/">Home</a>
         </li>
-        <li class="list-item-inline"><a class="link" href="/">Products</a></li>
-        <li class="list-item-inline"><a class="link" href="/">about</a></li>
+        <li class="list-item-inline"><a class="link" href="/projects.html">Projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/blogs.html">Blogs</a></li>
       </ul>
     </nav>
 
-    <hr />
-
-    <h2>header</h2>
-
     <header class="hero">
-      <img class="hero-img" src="./images/hero.svg" />
+      <img class="hero-img" src="../images/hero.svg" />
       <h1 class="hero-heading">
-        heading inside <spna class="heading-inverted">hero</spna>
+        Bijendra Raut The <spna class="heading-inverted">Web Developer</spna>
       </h1>
     </header>
 
-    <hr />
-    <h2>@section</h2>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>
+          I'm familiar with HTML5, CSS#, Git, JavaScript, NodeJS, ReactJS, and
+          Web Hosting.
+        </p>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container container-center">
-        <h1>white section</h1>
+        <h1>Projects</h1>
         <p>
-          This will have white background Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Asperiores minima qui fugit molestias iure facere
-          pariatur earum saepe nostrum commodi, recusandae perspiciatis
-          laboriosam, explicabo consectetur quam neque nisi nobis corrupti?
+          I like to showcase my work and thus, you can see my projects hosted
+          online.
         </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
       </div>
     </section>
 
     <section class="section ow">
       <div class="container container-center">
-        <h1>off white section</h1>
+        <h1>Blogs</h1>
         <p>
-          this will have gray background Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Nihil aliquam architecto cupiditate ex eaque eveniet
-          asperiores, rem non dignissimos magnam esse magni, animi laboriosam ut
-          deserunt, quod aperiam nemo consequuntur.
+          I'm also working on some technical and non-technical blogs. i like to
+          document my journey of learning.
         </p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+          </div>
+        </section>
       </div>
     </section>
 
-    <hr />
-    <h2>@footer</h2>
     <footer class="footer">
-      <div class="footer-header">some small heading inside footer</div>
+      <div class="footer-header">Social Media Presence</div>
       <ul class="social-links list-non-bullet">
         <li class="list-item-inline">
-          <a class="link" href="/">social two</a>
+          <a class="link" href="/">Github</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">social one</a>
+          <a class="link" href="/">Twitter</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">social three</a>
+          <a class="link" href="/">Linkedin</a>
         </li>
       </ul>
     </footer>
